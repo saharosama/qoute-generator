@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html >
+  <head> 
+    <title>Random Quote Generator</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="d-flex  justify-content-center align-items-center bg-secondary bg-opacity-10 ">
+    <div class="wrapper bg-white rounded-3 p-5 d-flex justify-content-between shadow mb-5 w-75 position-relative overflow-hidden">
+      <div class="qoutecol  ">
+      <header class=" fs-3 fw-bold mb-4 head ">Random Quote </header>
+      <div class="content m-1">
+        <div class="quote-area d-flex justify-content-center ">
+          <i class="fas fa-quote-left me-2 opacity-50"></i>
+          <p class="quote fs-5 text-center text-break fst-italic" id="quote">Never give up because you never know if the next try is going to be the one that works.</p>
+          <i class="fas fa-quote-right ms-2 d-flex align-items-center opacity-50"></i>
+        </div>
+        <div class=" d-flex justify-content-end mt-2">
+          <span class="p-1 m-1 opacity-50"">__</span>
+          <span class="author fs-5 fw-light fst-italic text-dark opacity-50"> Mary Kay Ash</span>
+        </div>
+      </div>
+    
+        <div class="butn d-flex justify-content-start align-items-center">
+      <button type="button" class="btn rounded-pill opacity-50 p-3 " onclick="randomQuote()">New Quote</button>
+    </div>
+  </div>
+  <div >
+    <p class="circle position-absolute opacity-25 "></p>
+    <p class="tri position-absolute "></p>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>

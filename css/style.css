@@ -1,0 +1,48 @@
+:root {
+--main:blueviolet;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #343434;
+    font-weight: 400;
+}
+body{
+    min-height: 100vh;
+}
+.head{
+    font-family: 'Work Sans';
+}
+.fas , span{
+    color:var(--main) ;
+}
+.btn {
+    background-color :var(--main) ;
+  color: white;
+}
+.btn:hover{
+    border: 1.5px solid var(--main) ;
+    color: var(--main) ;
+}
+.circle{
+  
+    height: 210px;
+    width:210px;
+    background-color: var(--main);
+    border-radius: 50%;
+    bottom: -50px;
+    right: -30px;
+ 
+}
+.tri{
+    height: 210px;
+  width: 210px;
+  background-color: #5555558a;
+    bottom: 170px;
+    left: 75%;
+    transform: rotate(45deg);
+ 
+}
